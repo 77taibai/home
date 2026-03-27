@@ -40,7 +40,7 @@ p {
 
 @font-face {
     font-family: "HYALiTi-45U";
-    src: url("HYALiTi-45U.woff2");
+    src: url("HYALiTi45U.woff2");
 }
 
 #root{
@@ -66,8 +66,8 @@ p {
         bottom: 0;
         left: 0;
         right: 0;
-        margin: auto; /* 同时实现上下左右居中 */
-        height: fit-content; /* 避免元素高度占满全屏 */
+        margin: auto;
+        height: fit-content;
     }
 }
 
@@ -138,13 +138,13 @@ p {
 }
 
 #header_home_info_avatar:hover {
-    transform: rotate(360deg); /* 悬停时旋转360度 */
+    transform: rotate(360deg);
 }
 
 #header_home_info_name {
     font-family: 楷体, serif;
-    font-weight: bold; /* 设置加粗 */
-    font-size: 32px;   /* 设置字体大小为22px */
+    font-weight: bold;
+    font-size: 32px;
     margin-top: 10px;
 }
 
